@@ -2,19 +2,16 @@
 # Site
 
 title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+url: 
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /icon.png
-description: Product marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: Supporting Future Bitcoin Innovators
+author: Generation Bitcoin
+  name: GenB
+  email: teenbitcoiners@gmail.com
+  twitter: https://twitter.com/GenBitcoin_
 social:
   name: Hydra Template
   links:
@@ -89,10 +86,10 @@ _select_data:
     - Facebook
     - Instagram
     - LinkedIn
-    - Pinterest
+    - Github
     - Tumblr
     - Twitter
-    - YouTube
+    - Email
     - RSS
 
 _comments:

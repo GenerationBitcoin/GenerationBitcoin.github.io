@@ -1,11 +1,19 @@
 .resource-list{
-    padding: 30px;
+    padding: 75px;
 }
 
 .resource-list h1{
     text-align: center;
     color: darkorange;
-    font-weight: 1000px;
+    font-weight: 800px;
+    padding-top: 15px;
+    font-size:40px;
+}
+
+.resource-list i{
+    text-align: center;
+    color: darkorange;
+    padding: 5px 15px 15px 15px;
 }
 
 .resource-list a{
@@ -13,15 +21,28 @@
     text-decoration: none;
 }
 
+.resource-list h2{
+    font-size: 35px;
+    font-style: italic;
+}
+
 .resource-list h3{
+    font-size: 30px;
+}
+
+.resource-list p{
     font-size: 25px;
 }
 
 .resource-list ul{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .resource-list .easy{
     text-decoration: underline;
     text-decoration-color: darkorange;
+}
+
+.resource-list .hard{
+    font-style:italic;
 }

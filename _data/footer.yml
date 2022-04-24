@@ -1,22 +1,22 @@
 - links:
   - name: Blog
     link: /blog/
+  - name: FAQ
+    link: /FAQ/
+  - name: Resources
+    link: /resources/
   - name: About
     link: /about/
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
+  - name: Github
+    link: https://github.com/GenerationBitcoin
     new_window: true
-    social_icon: Facebook
+    social_icon: Github
   - name: Twitter
-    link: https://twitter.com/cloudcannon/
+    link: https://twitter.com/GenBitcoin_
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
+  - name: Email
+    link: mailto:teenbitcoiners@gmail.com
+    social_icon: Email
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false

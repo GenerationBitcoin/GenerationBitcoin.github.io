@@ -1,7 +1,7 @@
  /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: orange;
-    color: black;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -24,11 +24,15 @@
   /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #EDEDED;
     max-height: 0;
     overflow: hidden;
-    transition: 50px 0.2s ease-out;
+    transition: maxheight 0.2s ease-out;
   } 
+
+  .panel p{
+    color: darkorange;
+  }
 
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -63,4 +67,18 @@
 
 .title-card{
     text-align: center;
+}
+
+#first-q{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#last-q{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#last-a{
+  border-radius: 25px;
 }

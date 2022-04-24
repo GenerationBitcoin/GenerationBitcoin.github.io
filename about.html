@@ -1,7 +1,7 @@
 ---
-title: Our team
+title: Our Team
 description: >-
-   We have a wonderful group of members to support you in your Bitcoin learning journey.
+   We have an amazing group of members to support you in your Bitcoin learning journey.
 ---
 
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
@@ -9,7 +9,7 @@ description: >-
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="name">{{ person.name }}</div>
 			<div class="position">{{ person.position }}</div>
 		</li>
 	{% endfor %}

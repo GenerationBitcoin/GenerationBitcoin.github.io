@@ -21,7 +21,7 @@
 				text-decoration: none;
 			}
 			svg {
-				fill: #999;
+				fill: black;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -70,7 +70,7 @@ footer {
 	padding: 50px 0 50px 0;
 	font-size: 1.1em;
 	position: relative;
-	background: #2b2b40;
+	background: orange;
 	color: #fff;
 
 	.copyright {
@@ -85,7 +85,7 @@ footer {
 	
 	&,
 	a {
-		color: #999;
+		color: black;
 	}
 
 	h2 {

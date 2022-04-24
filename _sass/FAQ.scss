@@ -1,0 +1,66 @@
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 25px;
+  }
+
+.body{
+    background-color: white;
+}
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .acc-active, .accordion:hover {
+    background-color: darkorange;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 50px 0.2s ease-out;
+  } 
+
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .acc-active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+.faq-title{
+    background-color: white;
+    padding: 25px;
+    text-align:center;
+}
+
+.questions{
+    padding: 50px;
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.fa-circle-question{
+    color: orange;
+    align-self: center;
+    background-color: white;
+    padding: 40px 0px 10px 0px;
+}
+
+.title-card{
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+.bg1{
+    background-image: url(/images/back-banner-one.jpeg);
+}
+
+.bg2{
+    background-image: url(/images/back-banner-two.jpg);
+}
+
+.bg3{
+    background-image: url(/images/back-banner-three.jpg);
+}
+
+.bg4{
+    background-image: url(/images/back-banner-four.jpg);
+}
+
+.parallax {
+    background-color:black;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.banner{
+    height:100vh;
+    align-items: center;
+    display:flex;
+}
+
+.fix-padding{
+    padding: 0px;
+    padding-bottom: 100px;
+}
+
+.home-buttons{
+    border-radius: 25px !important;
+}
+
+.icon{
+    color: orange;
+}
+
+.black-button{
+    color: black !important;
+    border-color: black !important;
+}
+
+.black-button:hover{
+    color: white !important;
+    background-color: black !important;
+}
+
+.text{
+    text-align: center;
+    margin: 100px;
+}
+
+h2{
+    color: orange;
+}
+
+p{
+    color: black;
+}
+
+.home-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.no-padding{
+    padding: 0px;
+}

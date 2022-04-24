@@ -1,0 +1,49 @@
+---
+layout: default
+title: FAQ
+---
+
+    <div class="title-card">
+        <i class="fa-solid fa-circle-question fa-5x"></i>
+        <h1 class="faq-title">Frequently Asked Questions</h1>
+    </div>
+
+    <div class="questions">
+        <button class="accordion">How old do I need to be to join?</button>
+        <div class="panel">
+        <p>We are an organization designed for teenagers (ages 13-19).</p>
+        </div>
+        
+        <button class="accordion">How do I help grow Generation Bitcoin even if I’m not a teenager?</button>
+        <div class="panel">
+        <p>You can add helpful resources to our Resources page by making a pull request on GitHub or DM’ing us on Twitter. You can also DM us if you would be interested in being a guest speaker!</p>
+        </div>
+        
+        <button class="accordion">What should I do if I don’t know anything about Bitcoin but am eager to start learning?</button>
+        <div class="panel">
+        <p>It’s totally okay to join GenB if you’re not familiar with Bitcoin. Everyone starts somewhere! We’d recommend that you check out some of the beginner resources listed on the Resources page as these have helped out our members initially learn about Bitcoin as well.</p>
+        </div> 
+        
+        <button class="accordion">What if I’m interested in cryptocurrencies other than Bitcoin?</button>
+        <div class="panel">
+        <p>Generation Bitcoin is, as the name implies, a Bitcoin-only group focused on helping teens get into this space.</p>
+        </div> 
+    </div>
+
+    
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+    
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+        }
+    </script>

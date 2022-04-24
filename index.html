@@ -2,13 +2,43 @@
 layout: home
 title: GenB
 ---
+
+<nav role="navigation">
+	<div id="menuToggle">
+		<input type="checkbox" />
+		<span></span>
+		<span></span>
+		<span></span>
+		<ul id="menu">
+			<a href="/about/">
+				<li>About</li>
+			</a>
+			<a href="/FAQ/">
+				<li>FAQ</li>
+			</a>
+			<a href="/resources/">
+				<li>Resources</li>
+			</a>
+			<a href="/blog/">
+				<li>Blog</li>
+			</a>
+		</ul>
+	</div>
+</nav>
+
 <div class="hero banner">
 	<div class="text-container">
 		<img class="home-icon" src="/images/icon.png">
 		<h1 class="editable"><strong>Generation Bitcoin</strong></h1>
 		<p class="subtext editable">Supporting Future Bitcoin Innovators</p>
-		<div class="cta button alt"><a class="home-buttons" href="https://forms.gle/giMEaCpsBykE9dqMA" target="_blank" rel="noopener noreferrer">Join Us!</a></div>
-	</div>
+		<div class="cta button alt"><a class="home-buttons btn-reverse" href="https://forms.gle/giMEaCpsBykE9dqMA" target="_blank"
+				rel="noopener noreferrer"><strong>Join Us!</strong></a></div>
+				<svg class="arrows">
+					<path class="a1" d="M0 0 L30 32 L60 0"></path>
+					<path class="a2" d="M0 20 L30 52 L60 20"></path>
+					<path class="a3" d="M0 40 L30 72 L60 40"></path>
+				</svg>
+		</div>
 </div>
 
 <div class="content">
@@ -21,7 +51,9 @@ title: GenB
 		<div class="container flex">
 			<div class="text editable">
 				<h2>What is <strong>Generation Bitcoin</strong>?</h2>
-				<p>Generation Bitcoin is a place to help teenagers start learning about Bitcoin through group based discussions, projects, readings, etc. We want to provide a safe, welcoming environment for people to grow and experiments with Bitcoin.</p>
+				<p>Generation Bitcoin is a place to help teenagers start learning about Bitcoin through group based
+					discussions, projects, readings, etc. We want to provide a safe, welcoming environment for people to
+					grow and experiments with Bitcoin.</p>
 				<div class="cta button alt"><a class="home-buttons black-button" href="/FAQ/">FAQ</a></div>
 			</div>
 			<div class="container icon">
@@ -39,11 +71,12 @@ title: GenB
 		<div class="container flex">
 			<div class="text editable">
 				<h2>What Resources Do We Use?</h2>
-				<p>We use a varity of resources with differing degrees of difficulty to accommodate different types of learners. We are open for suggestions, so feel free to leave a PR on our Github.</p>
+				<p>We use a varity of resources with differing degrees of difficulty to accommodate different types of
+					learners. We are open for suggestions, so feel free to leave a PR on our Github.</p>
 				<div class="cta button alt"><a class="home-buttons black-button" href="/resources/">Resources</a></div>
 			</div>
 			<div class="icon">
-				<i class="fa-solid fa-book fa-8x"></i>
+				<i class="fa-solid fa-book-open fa-8x"></i>
 			</div>
 		</div>
 	</section>

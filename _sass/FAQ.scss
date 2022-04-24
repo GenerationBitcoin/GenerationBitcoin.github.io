@@ -24,7 +24,7 @@
   /* Style the accordion panel. Note: hidden by default */
   .panel {
     padding: 0 18px;
-    background-color: #EDEDED;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: maxheight 0.2s ease-out;
@@ -77,8 +77,4 @@
 #last-q{
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-}
-
-#last-a{
-  border-radius: 25px;
 }

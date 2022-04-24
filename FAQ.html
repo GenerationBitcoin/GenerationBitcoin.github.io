@@ -25,7 +25,7 @@ title: FAQ
         </div> 
         
         <button class="accordion" id="last-q">What if I’m interested in cryptocurrencies other than Bitcoin?</button>
-        <div class="panel" id="last-a">
+        <div class="panel">
         <p>Generation Bitcoin is, as the name implies, a Bitcoin-only group focused on helping teens get into this space.</p>
         </div> 
     </div>
@@ -37,7 +37,7 @@ title: FAQ
     
         for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
+            this.classList.toggle("acc-active");
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight) {
             panel.style.maxHeight = null;

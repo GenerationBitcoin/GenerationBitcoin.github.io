@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hydra Template
+title: Generation Bitcoin
 url: 
 baseurl:
 
@@ -9,11 +9,11 @@ baseurl:
 logo: /icon.png
 description: Supporting Future Bitcoin Innovators
 author: Generation Bitcoin
-name: GenB
+name: Generation Bitcoin
 email: teenbitcoiners@gmail.com
 twitter: https://twitter.com/GenBitcoin_
 social:
-name: Hydra Template
+name: Generation Bitcoin
 links:
 - https://github.com/CloudCannon/hydra-jekyll-template
 

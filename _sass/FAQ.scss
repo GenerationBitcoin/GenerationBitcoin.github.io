@@ -34,6 +34,12 @@
     color: darkorange;
   }
 
+  .panel a{
+    color: darkorange;
+    text-decoration: underline;
+    text-decoration-color: darkorange;
+  }
+
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;

@@ -23,10 +23,19 @@
   background-size: cover;
 }
 
-.banner {
+.h-100-vh {
   height: 100vh;
+  
+  @include for-phone-only {
+    height: 74vh;
+  }
+}
+
+.banner {
   align-items: center;
   display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .fix-padding {
@@ -66,8 +75,10 @@
   text-align: center;
 }
 
-.home-content .text, .home-content .icon {
-  padding: 50px;
+.banner-icon {
+  margin: auto;
+  width: 35%;
+  margin-top: 50px;
 }
 
 h2 {
@@ -101,6 +112,8 @@ p {
   text-decoration: none;
   color: #232323;
   transition: color 0.5s ease;
+  width: 100%;
+  text-align: end;
 }
 
 #menuToggle a:hover {
@@ -180,6 +193,7 @@ p {
 #menu li {
   padding: 10px 0;
   font-size: 22px;
+  line-height: 0px;
 }
 
 #menuToggle input:checked~ul {
@@ -191,8 +205,11 @@ p {
 	height: 72px;
 	position: absolute;
 	left: 50%;
-	margin-left: -30px;
+	margin-left: -34px;
 	bottom: 32px;
+  @include for-phone-only {    
+    bottom: 250px;
+  }
 }
 
 .arrows path {

@@ -5,7 +5,16 @@
 		display: block;
 	}
 
-	@media #{$mid-point} {
+	// @include for-phone-only {
+	// 	border: 0;
+	// 	padding: 0 20px;
+
+	// 	a {
+	// 		display: inline;
+	// 	}
+	// }
+
+	@include for-tablet-portrait-up {  
 		border: 0;
 		padding: 0 20px;
 
@@ -19,9 +28,17 @@ nav {
 	text-transform: uppercase;
 	font-size: 1em;
 	width: 100%;
-	line-height: 40px;
+	line-height: 78px;
 
-	@media #{$mid-point} {
+	// @include for-phone-only {
+	// 	text-align: right;
+	// 	position: absolute;
+	// 	top: 13px;
+	// 	right: 0;
+	// 	padding: 0 20px;
+	// }
+
+	@include for-tablet-portrait-up {
 		text-align: right;
 		position: absolute;
 		top: 13px;
@@ -38,7 +55,12 @@ nav {
 		transition: .2s ease-in-out;
 		display: none;
 
-		@media #{$mid-point} {
+		@include for-phone-only {
+			display: inline;
+			padding: 10px;
+		}
+
+		@include for-tablet-portrait-up {
 			display: inline;
 			padding: 10px;
 		}
@@ -52,7 +74,11 @@ nav {
 			font-size: 1.9em;
 			border: 0;
 
-			@media #{$mid-point} {
+			@include for-phone-only {
+				display: none;
+			}
+	
+			@include for-tablet-portrait-up {
 				display: none;
 			}
 
@@ -63,12 +89,11 @@ nav {
 	}
 
 	a:hover {
-
 		border-bottom: 1px solid rgba(255,255,255,.3);
 		color: #fff;
 	}
 
-	@media #{$mid-point} {
+	@include for-tablet-portrait-up {
 		a.highlight {
 			border: 1px #ccc solid;
 			border-radius: 5px;

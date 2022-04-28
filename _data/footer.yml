@@ -1,6 +1,6 @@
 - links:
-  - name: Blog
-    link: /blog/
+# - name: Blog
+#   link: /blog/
   - name: FAQ
     link: /FAQ/
   - name: Resources

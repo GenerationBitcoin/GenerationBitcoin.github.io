@@ -25,10 +25,6 @@
 
 .h-100-vh {
   height: 100vh;
-  
-  @include for-phone-only {
-    height: 74vh;
-  }
 }
 
 .banner {
@@ -207,9 +203,6 @@ p {
 	left: 50%;
 	margin-left: -34px;
 	bottom: 32px;
-  @include for-phone-only {    
-    bottom: 250px;
-  }
 }
 
 .arrows path {

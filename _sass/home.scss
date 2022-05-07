@@ -80,6 +80,18 @@
   text-align: center;
 }
 
+.text h2{
+  @include for-phone-only {
+    padding-left: 20px;
+  }
+}
+
+.text p{
+  @include for-phone-only {
+    padding-left: 15px;
+  }
+}
+
 .banner-icon {
   margin: auto;
   width: 35%;

@@ -2,7 +2,7 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{% seo %}
@@ -18,9 +18,9 @@
 	</head>
 	<body>
 		<header>
-			<div class="container-fluid">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="/images/icon.png" alt="GenB Logo" width="115" height="65" /></a></div>
-				{% include navigation.html %}
+			<div class="container-fluid row">
+				<div class="company-name col-6"><a href="{{ site.baseurl }}/"><img src="/images/icon.png" alt="GenB Logo" width="115" height="65" /></a></div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">{% include navigation.html %}</div>
 			</div>
 		</header>
 		<div style="background-color:white;" class="body">

@@ -4,39 +4,17 @@
 	a {
 		display: block;
 	}
-
-	// @include for-phone-only {
-	// 	border: 0;
-	// 	padding: 0 20px;
-
-	// 	a {
-	// 		display: inline;
-	// 	}
-	// }
-
-	@include for-tablet-portrait-up {  
-		border: 0;
-		padding: 0 20px;
-
-		a {
-			display: inline;
-		}
-	}
 }
 
 nav {
 	text-transform: uppercase;
-	font-size: 1em;
+	font-size: 1.3em;
 	width: 100%;
 	line-height: 78px;
-
-	// @include for-phone-only {
-	// 	text-align: right;
-	// 	position: absolute;
-	// 	top: 13px;
-	// 	right: 0;
-	// 	padding: 0 20px;
-	// }
+	
+	@include for-phone-only {
+		font-size: 1.1em;
+	}
 
 	@include for-tablet-portrait-up {
 		text-align: right;
@@ -51,9 +29,9 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		color: rgba(255,255,255,1);
 		transition: .2s ease-in-out;
-		display: none;
+		display: inline;
 
 		@include for-phone-only {
 			display: inline;
@@ -67,7 +45,7 @@ nav {
 
 
 		&.nav-toggle {
-			display: inline;
+			display: none;
 			position: absolute;
 			right: 10px;
 			top: -22px;
@@ -89,7 +67,7 @@ nav {
 	}
 
 	a:hover {
-		border-bottom: 1px solid rgba(255,255,255,.3);
+		border-bottom: 1px solid rgba(255,255,255,.4);
 		color: #fff;
 	}
 
@@ -106,7 +84,7 @@ nav {
 	}
 
 	a.active {
-		color: #fff;
+		border-bottom: 1px solid rgba(255,255,255,.7);
 	}
 
 }

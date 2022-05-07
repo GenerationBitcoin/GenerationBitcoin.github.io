@@ -31,25 +31,27 @@
   } 
 
   .panel p{
-    color: darkorange;
+    color: orange;
+    padding-top: 20px;
   }
 
   .panel a{
-    color: darkorange;
+    color: orange;
     text-decoration: underline;
-    text-decoration-color: darkorange;
+    text-decoration-color: orange;
   }
 
   .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
+    content: '+';
     float: right;
     margin-left: 5px;
+    font-weight: 900;
   }
   
   .acc-active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: '_';
+    font-weight: 900;
+    margin-top: -10px;
   }
 
 .faq-title{
@@ -59,7 +61,7 @@
 }
 
 .questions{
-    padding: 50px;
+    padding: 40px;
     background-color: white;
     padding-bottom: 80px;
 }

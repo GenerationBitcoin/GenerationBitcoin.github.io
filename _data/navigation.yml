@@ -14,3 +14,7 @@
   link: /about/
   new_window: false
   highlight: false
+- name: Meeting Notes
+  link: https://github.com/GenerationBitcoin/meeting_notes
+  new_window: false
+  highlight: false

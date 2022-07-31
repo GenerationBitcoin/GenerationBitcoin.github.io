@@ -7,8 +7,8 @@
     link: /resources/
   - name: About
     link: /about/
-  - name: Meeting Notes
-    link: https://github.com/GenerationBitcoin/meeting_notes
+  - name: Blog
+    link: /blog/index.html
 - links:
   - name: Github
     link: https://github.com/GenerationBitcoin

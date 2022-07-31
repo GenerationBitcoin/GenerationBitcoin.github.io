@@ -48,6 +48,6 @@ Notes about the discussion session on July 2nd, 2022.
     + Merkle root - Transaction IDs hashed together into one hash
     + Better SPV solutions are being implemented, but they still have issues
         + Neutrino is one said solution
-    + Pruning - Practice in full nodes, once you verify a block you don’t have to keep it once a certain number of block havebeen mined on top of it
+    + Pruning - Practice in full nodes, once you verify a block you don’t have to keep it once a certain number of block have been mined on top of it
 
 #### Meeting notes written by Sybil

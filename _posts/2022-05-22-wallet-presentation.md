@@ -57,7 +57,7 @@ Notes on a presentation about Bitcoin Wallets, given on the meeting of May 22nd,
     + Bech32_encode(PKH) is another method of generating an address
 
 ### Additional Resources:
-+ Thread about the presentation w/ resources: https://twitter.com/IshaanaMisra/status/1537539567959556097
-+ Recommended reading for learning more about elliptic curves, keys, and addresses: https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc 
++ Thread about the presentation w/ resources: [link](https://twitter.com/IshaanaMisra/status/1537539567959556097)
++ Recommended reading for learning more about elliptic curves, keys, and addresses: [link](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc)
 
 #### Meeting notes written by Sybil

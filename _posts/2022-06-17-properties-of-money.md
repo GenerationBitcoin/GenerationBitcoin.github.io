@@ -58,6 +58,6 @@ Notes on a presentation about the Properties of Money, given on the meeting of J
         + Bitcoin is fungible at the network level
 
 ### Additional Resources:
-+ Thread about the presentation w/ resources: https://twitter.com/MoluArsh/status/1538300188044967936
++ Thread about the presentation w/ resources: [link](https://twitter.com/MoluArsh/status/1538300188044967936)
 
 #### Meeting notes written by Sybil

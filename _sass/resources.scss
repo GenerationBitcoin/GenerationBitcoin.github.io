@@ -17,7 +17,7 @@
 }
 
 .resource-list a{
-    color: darkorange;
+    color: black;
     text-decoration: none;
 }
 
@@ -45,4 +45,25 @@
 
 .resource-list .hard{
     font-style:italic;
+}
+
+.badge-pill{
+    background-color:orange;
+    border-radius:25px;
+    font-size: 0.75rem;
+}
+
+.card-img-top{
+    height: 18rem;
+    width: 14.87rem;
+}
+
+.card{
+    width: 15rem;
+    margin: 5rem;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
 }

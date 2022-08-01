@@ -1,4 +1,4 @@
 ---
 name: Dan
-image_path: /images/dan.jpg
+image_path: /images/nolan.jpeg
 ---

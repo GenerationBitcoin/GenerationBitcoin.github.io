@@ -54,16 +54,19 @@
 }
 
 .card-img-top{
-    height: 18rem;
-    width: 14.87rem;
+    height: 21rem;
+    width: 17.2rem;
+    margin-top: 1rem;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card{
-    width: 15rem;
-    margin: 5rem;
+    margin: 1rem;
     transition: transform .2s;
+    display: flex;
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
